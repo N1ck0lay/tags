@@ -1,0 +1,45 @@
+.tag-modal-overlay {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.tag-modal-info {
+  z-index: 101;
+  position: absolute;
+  top: 25%;
+  padding: 5px 35px 25px;
+  background: #232B2B;
+  font-size: 15px;
+  display: block;
+  width: 700px;
+  left: calc(50% - 350px);
+  text-align: left;
+  border-radius: 4px;
+}
+
+.tag-modal-info button {
+  position: absolute;
+  right: 7px;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font-size: 20px;
+  outline: 0;
+}
+
+.tag-modal-info button:active {
+  transform: scale(0.8);
+}
+
+.tag-modal-info ul {
+  list-style: none;
+  font-size: 16px;
+  padding-left: 0;
+}

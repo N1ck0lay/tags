@@ -1,0 +1,10 @@
+.single-tag {
+  margin: 5px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.single-tag:hover {
+  transform: scale(1.1);
+}
